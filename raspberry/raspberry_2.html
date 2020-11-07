@@ -13,57 +13,71 @@
 </head>
 
 <body>
-   
-  <!--header-->
-    <div class="header">
-        <div class="container">
-           
-            <!--logo-->
-            <div class="logo">
-                <a href="../main/main.html"><img src="image/main_logo2.png" alt="깨비야놀자"></a>
-            </div>
-            <!-- //logo-->
-            
-             <button type="button" class="mgnb">모바일메뉴</button>
-            <!--gnbWrap-->
-            <div class="gnbWrap">
-                <button type="button" class="mgnb-close">모바일메뉴닫기</button>
-                
-                <ul class='gnb clearfix'>
-                    <li><a href="#">로그인</a>
+
+<!--header-->
+<div class="header">
+    <div class="container">
+
+        <!--logo-->
+        <div class="logo">
+            <a href="../main/main.html"><img src="image/main_logo2.png" alt="깨비야놀자"></a>
+        </div>
+        <!-- //logo-->
+
+        <button type="button" class="mgnb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <!--gnbWrap-->
+        <div class="gnbWrap">
+            <button type="button" class="mgnb-close">모바일메뉴닫기</button>
+
+            <ul class='gnb clearfix'>
+                <li class="login_before">
+                    <a href="#">로그인</a>
                     <ul class="two">
-                            <li><a href="../login/login_main.html">로그인 하기</a></li>
-                            <li><a href="../join/join_main.html">회원가입 하기</a></li>
-                        </ul></li>
-                        
-                    <li><a href="#">교구스토어</a>
+                        <li><a href="../login/login_main.html">로그인 하기</a></li>
+                        <li><a href="../join/join_main.html">회원가입 하기</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">교구스토어</a>
                     <ul class="two">
-						<li><a href="../store/store.html">교구 둘러보기</a></li>  
-                        </ul></li>
-                        
-                    <li><a href="#">돌봄신청</a>
+                        <li><a href="../store/store.html">교구 둘러보기</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">돌봄신청</a>
                     <ul class="two">
-                            <li><a href="../teacher/produce.html">깨비 선생님은</a></li>
-                            <li><a href="../teacher_profile/index.html">선생님 프로필</a></li>
-                            <li><a href="../counseling/basic.html">상담신청</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li><a href="#">공지사항</a>
-                        <ul class="two">
-                            <li><a href="../notice/notice.html">공지사항</a></li>
-                            <li><a href="../notice/notice_1.html">Q&A</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li><a href="#">회사소개</a>
-                        <ul class="two">
-						  <li><a href="../company/business_03.html">스토리</a></li>
-                            <li><a href="../map/map.html">오시는 길</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+                        <li><a href="../teacher/produce.html">깨비 선생님은</a></li>
+                        <li><a href="../teacher_profile/index.html">선생님 프로필</a></li>
+                        <li><a href="../counseling/basic.html">상담신청</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">공지사항</a>
+                    <ul class="two">
+                        <li><a href="../notice/notice.html">공지사항</a></li>
+                        <li><a href="../notice/notice_1.html">Q&A</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">회사소개</a>
+                    <ul class="two">
+                        <li><a href="../company/business_03.html">스토리</a></li>
+                        <li><a href="../map/map.html">오시는 길</a></li>
+                    </ul>
+                </li>
+
+                <li class="login_after">
+                    <a href="#">마이페이지</a>
+                    <ul class="two">
+                        <li><a href="../main/main.html" onclick="logout()">로그아웃</a></li>
+                        <li><a href="../update/update.html">회원정보 수정</a></li>
+                        <li><a href="../raspberry/raspberry_2.html">깨비캠</a></li>
+                    </ul>
             <!-- // gnbWrap-->
             
             
