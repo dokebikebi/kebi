@@ -90,93 +90,98 @@
 
 
 <!--contents-wrap-->
-<div class='contents-wrap'>
-    <div class='container'>
-        <a class="banner" href="#"><img src="image/teacher_banner.png" alt="배너1"></a>
-        <a href="#" class="left-banner"><img src="image/leftimg.png" alt="왼쪽배너"></a>
+    <div class='contents-wrap'>
+        <div class='container'>
+          <a class="banner" href="#"><img src="image/teacher_banner.png" alt="배너1"></a>
+	<a href="#" class="left-banner"><img src="image/leftimg.png" alt="왼쪽배너"></a>
+	
+       <div class="inquire-top">
+        <div class="timeWrapper pt140">
+            <p class="title">상담가능 시간</p>
+            <!--<p class="sub-title">방문하기</p>-->
+            <ul class="timetable">
+                <li>월 ~ 금 : 오전 9시 ~ 오후 6시</li>
+                <li>토요일 : 오전 10시 ~ 오후 2시</li>
+                <li>일요일·공휴일 휴무</li>
+            </ul>
+        </div>
+    </div>
 
-        <div class="inquire-top">
-            <div class="timeWrapper pt140">
-                <p class="title">상담가능 시간</p>
-                <!--<p class="sub-title">방문하기</p>-->
-                <ul class="timetable">
-                    <li>월 ~ 금 : 오전 9시 ~ 오후 6시</li>
-                    <li>토요일 : 오전 10시 ~ 오후 2시</li>
-                    <li>일요일·공휴일 휴무</li>
-                </ul>
-            </div>
+    <div class="inquire-bottom">
+
+        <div class="left pt140">
+            <p class="title">문의하기</p>
+            <ul>
+                <!--<li>서울특별시 종로구 안국동 OO-OO, 110-240</li>-->
+                <li>kebi@naver.com</li>
+                <li>TEL : 02.1234.5678</li>
+            </ul>
         </div>
 
-        <div class="inquire-bottom">
+        <div class="right formWrapper">
+            <form name="submit-box" method="post">
 
-            <div class="left pt140">
-                <p class="title">문의하기</p>
-                <ul>
-                    <!--<li>서울특별시 종로구 안국동 OO-OO, 110-240</li>-->
-                    <li>kebi@naver.com</li>
-                    <li>TEL : 02.1234.5678</li>
-                </ul>
-            </div>
-
-            <div class="right formWrapper">
-                <form name="submit-box" method="post">
-
-                    <div class="formgroup">
-                        <div class="formgroup_name w50 floatleft">
-                            <label for="user_name" class="sr-only">이름</label>
-                            <input class="id" type="text" name="id" tabindex="1" placeholder="이름">
-                        </div>
-
-                        <div class="formgroup_num w50 floatright">
-                            <label for="user_num" class="sr-only">전화번호</label>
-                            <input class="num" type="text" name="num" tabindex="2" placeholder="전화번호">
-                        </div>
-
-                        <div class="formgroup_mail">
-                            <label for="user_num" class="sr-only">이메일</label>
-                            <input class="mail" name="mail" tabindex="3" placeholder="이메일">
-                        </div>
-
-                        <div class="formgroup_address">
-                            <label for="user_address" class="sr-only">이메일</label>
-                            <input class="address" name="address" tabindex="4" placeholder="주소">
-                        </div>
-
-                        <div class="formgroup_teach">
-                            <form id="selectForm">
-                                <label for="srct" class="sr-only">선생님 선택</label>
-                                <select>
-                                    <option value="">선생님1</option>
-                                    <option value="">선생님2</option>
-                                    <option value="">선생님3</option>
-                                </select>
-                            </form>
-                        </div>
-
-                        <div class="formgroup_title">
-                            <label for="user_title" class="sr-only">제목</label>
-                            <input class="user_title" name="title" tabindex="6" placeholder="제목">
-                        </div>
-
-                        <div class="formgroup_msg">
-                            <label for="user_msg" class="sr-only">메시지를 입력하세요.</label>
-                            <textarea class="msg" name="msg" tabindex="7" placeholder="메시지를 입력하세요."
-                                      style="height:100px;resize: none;"></textarea>
-                        </div>
-
-                        <button class="btnsubmit" type="button">
-                            <strong>제출하기</strong>
-                        </button>
+                <div class="formgroup">
+                    <div class="formgroup_name w50 floatleft">
+                        <label for="user_name" class="sr-only">이름</label>
+                        <input class="id" type="text" name="id" tabindex="1" placeholder="이름">
                     </div>
 
-                </form>
-            </div>
-        </div>
-        <br><br>
+                    <div class="formgroup_num w50 floatright">
+                        <label for="user_num" class="sr-only">전화번호</label>
+                        <input class="num" type="text" name="num" tabindex="2" placeholder="전화번호">
+                    </div>
 
+                    <div class="formgroup_mail">
+                        <label for="user_num" class="sr-only">이메일</label>
+                        <input class="mail" name="mail" tabindex="3" placeholder="이메일">
+                    </div>
+
+                    <div class="formgroup_address">
+                        <label for="user_address" class="sr-only">이메일</label>
+                        <input class="address" name="address" tabindex="4" placeholder="주소">
+                    </div>
+
+                    <div class="formgroup_teach">
+                        <form id="selectForm">
+                            <label for="srct" class="sr-only">선생님 선택</label>
+                            <select>
+                                <option value="">김상우 선생님</option>
+                                <option value="">오세희 선생님</option>
+                                <option value="">김나라 선생님</option>
+                                <option value="">Rachel Kim 선생님</option>
+                                <option value="">최진영 선생님</option>
+                                <option value="">진경철 선생님</option>
+                                <option value="">김수정 선생님</option>
+								<option value="">공하늘 선생님</option>
+                           <option value="">Monica Lee 선생님</option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <div class="formgroup_title">
+                        <label for="user_title" class="sr-only">제목</label>
+                        <input class="user_title" name="title" tabindex="6" placeholder="제목">
+                    </div>
+
+                    <div class="formgroup_msg">
+                        <label for="user_msg" class="sr-only">메시지를 입력하세요.</label>
+                        <textarea class="msg" name="msg" tabindex="7" placeholder="메시지를 입력하세요." style="height:100px;resize: none;"></textarea>
+                    </div>
+
+                    <button class="btnsubmit" type="button">
+                        <strong>제출하기</strong>
+                    </button>
+                </div>
+	
+            </form>
+        </div>
     </div>
-</div>
-<!-- //contents-wrap-->
+<br><br>
+       
+        </div>
+    </div>
+    <!-- //contents-wrap-->
 
 
 <!--footer-->
